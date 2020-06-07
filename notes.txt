@@ -1,0 +1,19 @@
+Parts
+-----
+
+Slack/discord token
+function calling health endpoint
+list containing all deployment endpoints
+scheduled executor
+
+to support
+
+iam role for lambda execution must have access to:
+
+- parameter store
+- db/s3/whatever
+- 
+
+iam role for executing lambda for cloud watch event rule
+ - rate
+ - lambda to execute
